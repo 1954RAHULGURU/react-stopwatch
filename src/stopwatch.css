@@ -1,0 +1,62 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategray;
+  height: 100vh;
+}
+
+.mainheader h1 {
+  font-size: 60px;
+  text-align: center;
+  background-color: crimson;
+  color: aliceblue;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.stopwatch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.time {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 25px;
+  padding: 25px;
+  margin-top: -15px;
+  color: gold;
+}
+
+.btn1 {
+  padding: 15px;
+  width: 75px;
+  margin: 15px;
+  font-weight: 900;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn1:hover {
+  background-color: aquamarine;
+}
+
+.btn2 {
+  padding: 15px;
+  width: 75px;
+  margin: 15px;
+  font-weight: 900;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn2:hover {
+  background-color: aquamarine;
+}
